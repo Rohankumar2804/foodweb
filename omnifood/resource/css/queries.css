@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .hero-text-box {
+    margin-top: 30px;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .steps-box:first-child {
+    margin-top: 15px;
+  }
+  .steps-box:last-child {
+    margin-top: 30px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .work-step {
+    margin-bottom: 20px;
+  }
+  .work-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .btn-app img {
+    height: 40px;
+    width: auto;
+  }
+  .icon-small {
+    width: 10px;
+    margin-right: 5px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 100%;
+  }
+  .plan-price {
+    font-size: 150%;
+  }
+  .plan-box ul {
+    height: 150px;
+  }
+  .plan-price {
+    font-size: 200%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  h1 {
+    font-size: 160%;
+  }
+  h2 {
+    font-size: 120%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .city-feature {
+    font-size: 120%;
+  }
+  .icon-small {
+    width: 20px;
+    margin-right: 10px;
+  }
+  .work-step div {
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    padding: 4px;
+    font-size: 100%;
+    margin-right: 15px;
+  }
+  .logo {
+    height: 60px;
+  }
+  .main-nav {
+    margin-top: 30px;
+  }
+
+  /*mobnav*/
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+  }
+  .main-nav li {
+    display: block;
+    padding: 5px 0;
+    font-size: 100%;
+  }
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  .main-nav {
+    display: none;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  /*mobnav*/
+}
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  header {
+    height: 500px;
+  }
+  footer {
+    width: 100%;
+  }
+  .btn {
+    width: auto;
+    height: 10%;
+  }
+  /*mobnav*/
+}
